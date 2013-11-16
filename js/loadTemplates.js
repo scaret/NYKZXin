@@ -1,10 +1,10 @@
 var tmpl = {
-  'base': 'template/base.tmpl.js',
-  'login': 'template/login.tmpl.js',
-  'home': 'template/home.tmpl.js',
-  'board': 'template/board.tmpl.js',
-  'post': 'template/post.tmpl.js',
-  'dopost': 'template/dopost.tmpl.js',
+  'base': 'template/base.tmpl',
+  'login': 'template/login.tmpl',
+  'home': 'template/home.tmpl',
+  'board': 'template/board.tmpl',
+  'post': 'template/post.tmpl',
+  'dopost': 'template/dopost.tmpl',
 }
 $.ajaxSetup({async:false});
 _.each(tmpl,function(url,id){
